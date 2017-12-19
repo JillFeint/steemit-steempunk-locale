@@ -1,0 +1,13 @@
+{
+    "name" : "pcsg/steemit-steempunk-locale",
+    "type" : "quiqqer-plugin",
+    "description" : "Includes all locale files for the STEEMPUNK-NET Game",
+    "version" : "dev-master",
+    
+    "authors" : [{
+        "name": "dehenne",
+        "email": "@dehenne",
+        "homepage": "http://www.steempunk.net",
+        "role": "Developer"
+    }]
+}
