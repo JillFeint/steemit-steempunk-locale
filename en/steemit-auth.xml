@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locales>
+    <groups name="pcsg/steemit-auth" datatype="js,php">
+        <locale name="authenticator.title">
+            <en><![CDATA[Steem Connect]]></en>
+        </locale>
+        <locale name="authenticator.description">
+            <en><![CDATA[QUIQQER authentication via Steemit Account]]></en>
+        </locale>
+
+        <!-- Package -->
+        <locale name="package.title">
+            <en><![CDATA[Steemit Login for QUIQQER]]></en>
+        </locale>
+        <locale name="package.description">
+            <en><![CDATA[QUIQQER authentication via Steemit Account]]></en>
+        </locale>
+
+        <!-- Control: Login -->
+        <locale name="control.login.label.username">
+            <en><![CDATA[Steemit Account]]></en>
+        </locale>
+        <locale name="control.login.label.password">
+            <en><![CDATA[Password]]></en>
+        </locale>
+        <locale name="control.login.label.login">
+            <en><![CDATA[Login!]]></en>
+        </locale>
+
+        <!-- Settings -->
+        <locale name="settings.title">
+            <en><![CDATA[Steemit Auth]]></en>
+        </locale>
+        <locale name="settings.category.settings.title">
+            <en><![CDATA[Settings]]></en>
+        </locale>
+        <locale name="settings.apiSettings.title">
+            <en><![CDATA[SteemConnect API]]></en>
+        </locale>
+        <locale name="settings.apiSettings.clientId.title">
+            <en><![CDATA[Client ID]]></en>
+        </locale>
+        <locale name="settings.apiSettings.clientSecret.title">
+            <en><![CDATA[Client Secret]]></en>
+        </locale>
+        <locale name="settings.authSettings.title">
+            <en><![CDATA[General settings]]></en>
+        </locale>
+        <locale name="settings.redirectUrl.title">
+            <en><![CDATA[Redirect Site]]></en>
+        </locale>
+        <locale name="settings.authSettings.maxLoginErrors.title">
+            <en><![CDATA[Maximum no. of login attempts]]></en>
+        </locale>
+        <locale name="settings.authSettings.maxLoginErrors.description">
+            <en>
+                <![CDATA[Maximal number of attempts for logging in with a valid (meaning: linked to a QUIQQER Account) Steemit Account before the user session is terminated and the authentication process starts over.]]></en>
+        </locale>
+
+        <!-- Site types -->
+        <locale name="sitetypes.apiredirect.title">
+            <en><![CDATA[SteemConnect API Redirect]]></en>
+        </locale>
+        <locale name="sitetypes.apiredirect.desc">
+            <en><![CDATA[Redirect Site for SteemConnect API Authorization Requests]]></en>
+        </locale>
+    </groups>
+
+    <groups name="pcsg/steemit-auth" datatype="php">
+        <!-- Ajax -->
+        <locale name="message.ajax.general.error">
+            <en><![CDATA[An unexpected error ocurred during your request. Please contact an administrator.]]></en>
+        </locale>
+
+        <!-- Class: Authenticator -->
+        <locale name="exception.authenticator.wrong_data">
+            <en><![CDATA[The data transferred for authentication is incorrect. Please try again.]]></en>
+        </locale>
+        <locale name="exception.authenticator.user_not_found">
+            <en><![CDATA[The user was not found. Please sign up first before you log in.]]></en>
+        </locale>
+    </groups>
+
+    <groups name="pcsg/steemit-auth" datatype="js">
+        <!-- Class: SteemConnect -->
+        <locale name="classes.steemconnect.login_btn.text">
+            <en><![CDATA[SteemConnect Login]]></en>
+        </locale>
+        <locale name="classes.steemconnect.logout_btn.text">
+            <en><![CDATA[Log out]]></en>
+        </locale>
+    </groups>
+</locales>

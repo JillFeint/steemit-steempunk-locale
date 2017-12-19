@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locales>
+    <groups name="pcsg/steemit-battle" datatype="php,js">
+
+        <locale name="package.title">
+
+            <en><![CDATA[Steemit Battle]]></en>
+        </locale>
+
+        <locale name="package.description">
+
+            <en><![CDATA[Steemit Battle]]></en>
+        </locale>
+
+    </groups>
+
+    <groups name="pcsg/steemit-battle" datatype="php">
+
+        <!-- Class: AbstractFighter\Handler -->
+        <locale name="exception.fighters.handler.username_not_found">
+
+            <en><![CDATA[The Steemit username "[username]" was not found in the system.]]></en>
+        </locale>
+        <locale name="exception.fighters.handler.user_has_no_character_class">
+            <en>
+                <![CDATA[The QUIQQER user "[username]" (#[userId]) cannot be used as a Steempunk AbstractFighter because he has no character class assigned.]]></en>
+        </locale>
+        <locale name="exception.fighters.handler.user_is_already_a_fighter">
+            <en>
+                <![CDATA[The QUIQQER user "[username]" (#[userId]) cannot be converted to a Steempunk AbstractFighter because he already is one.]]></en>
+        </locale>
+
+        <!-- Class: AbstractFighter -->
+        <locale name="fighters.character_class.Aristocrat">
+
+            <en><![CDATA[Aristocrat]]></en>
+        </locale>
+        <locale name="fighters.character_class.Adventurer">
+
+            <en><![CDATA[Adventurer]]></en>
+        </locale>
+
+        <!-- cron.xml -->
+        <locale name="cron.fightScheduledBattles.title">
+
+            <en><![CDATA[Fight scheduled battles]]></en>
+        </locale>
+        <locale name="cron.fightScheduledBattles.description">
+
+            <en><![CDATA[Fights all for now scheduled battles.]]></en>
+        </locale>
+
+        <locale name="message.save.successfully">
+
+            <en><![CDATA[STEEMPUNK-NET Interface has been successfully updated.]]></en>
+        </locale>
+
+
+        <!-- battle messages -->
+        <locale name="message.own.battle.1">
+
+            <en><![CDATA[Do you like hitting yourself? I'm sorry, but this is not supported here.]]></en>
+        </locale>
+        <locale name="message.own.battle.2">
+
+            <en><![CDATA[You're very masochistic. It's not gonna work that way.]]></en>
+        </locale>
+        <locale name="message.own.battle.3">
+
+            <en><![CDATA[Do you do that in your spare time, too? ... Let's not do that.]]></en>
+        </locale>
+        <locale name="message.own.battle.4">
+
+            <en><![CDATA[Ehh .... nope.]]></en>
+        </locale>
+        <locale name="message.own.battle.5">
+
+            <en><![CDATA[What's the matter with you?]]></en>
+        </locale>
+
+        <!-- attack messages -->
+        <locale name="message.attack.title">
+
+            <en><![CDATA[Attention, you're under attack!]]></en>
+        </locale>
+        <locale name="message.attack.1">
+
+            <en><![CDATA[STEAMPUNK-NET Interface reports attack.]]></en>
+        </locale>
+
+        <!-- Battle messages -->
+
+        <locale name="message.battle.challenge.salutation.m">
+
+            <en><![CDATA[him]]></en>
+        </locale>
+        <locale name="message.battle.challenge.salutation.f">
+
+            <en><![CDATA[her]]></en>
+        </locale>
+
+        <!-- Battle vibes -->
+
+        <locale name="message.battle.challenge.vibe.1">
+
+            <en><![CDATA[Bored,]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.2">
+
+            <en><![CDATA[Excitedly,]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.3">
+
+            <en><![CDATA[Confidently, ]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.4">
+
+            <en><![CDATA[Bravely, ]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.5">
+
+            <en><![CDATA[Daringly,]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.6">
+
+            <en><![CDATA[With a slight grin on your face]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.7">
+
+            <en><![CDATA[Coolly, ]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.8">
+
+            <en><![CDATA[Casually, ]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.9">
+
+            <en><![CDATA[Exhausted,]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.10">
+
+            <en><![CDATA[Full of energy, ]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.11">
+
+            <en><![CDATA[A little shy, ]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.12">
+
+            <en><![CDATA[Self-assuredly, ]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.13">
+
+            <en><![CDATA[Stealthily, ]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.14">
+
+            <en><![CDATA[With a pounding heart,]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.15">
+
+            <en><![CDATA[Grinning,]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.16">
+
+            <en><![CDATA[Quickly, ]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.17">
+
+            <en><![CDATA[With a sigh, ]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.18">
+
+            <en><![CDATA[With nimble fingers]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.19">
+
+            <en><![CDATA[With nimble fingers,]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.20">
+
+            <en><![CDATA[Dead on target,]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.21">
+
+            <en><![CDATA[Determined, ]]></en>
+        </locale>
+        <locale name="message.battle.challenge.vibe.22">
+
+            <en><![CDATA[Calmly, ]]></en>
+        </locale>
+
+        <!-- Battle messages adventurers -->
+        <locale name="message.battle.challenge.adventurers.place1">
+
+            <en><![CDATA[You are strolling through a dark alley.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.adventurers.place2">
+
+            <en><![CDATA[You are hanging out in the depths of Ground Zero.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.adventurers.place3">
+
+            <en><![CDATA[You are cruising through the maze of Ground Zero's skyscrapers.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.adventurers.place4">
+
+            <en><![CDATA[You are hanging out in one of Ground Zero's infamous gambling dens.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.adventurers.place5">
+
+            <en><![CDATA[You are waiting for a business partner in a secluded backyard in Ground Zero.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.adventurers.place6">
+
+            <en><![CDATA[You are going down to the lower storeys of Ground Zero in a shabby paternoster lift.]]></en>
+        </locale>
+
+        <!-- Battle general -->
+        <locale name="message.battle.challenge.general.place1">
+
+            <en><![CDATA[You have withdrawn into an opium den.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.general.place2">
+
+            <en><![CDATA[You are bored out of your mind in a shady bar.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.general.place3">
+
+            <en><![CDATA[You run into [defenderUsername] in a busy corridor.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.general.place4">
+
+            <en><![CDATA[You run into [defenderUsername] in a quiet corridor.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.general.place5">
+
+            <en><![CDATA[You run into [defenderUsername] in a quiet side street.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.general.place6">
+
+            <en><![CDATA[You run into [defenderUsername] in a busy main street.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.general.place7">
+
+            <en><![CDATA[You are sitting in an apartment entrance and observe your surroundings.]]></en>
+        </locale>
+
+        <!-- Battle messages adventurers -->
+        <locale name="message.battle.challenge.aristocrat.place1">
+
+            <en><![CDATA[You are strolling through Skyground's well-kept upper storeys.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.aristocrat.place2">
+
+            <en><![CDATA[You are dandering through Skyground's dapper corridors.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.aristocrat.place3">
+
+            <en><![CDATA[You are walking along Skyground's elegant Boulevards.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.aristocrat.place4">
+
+            <en><![CDATA[You are unwinding in one of Skyground's upper-class reading clubs.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.aristocrat.place5">
+
+            <en><![CDATA[You are enjoying a fresh breeze on one of Skyground's sun decks.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.aristocrat.place6">
+
+            <en><![CDATA[You are going up to the higher storeys in a modern automatic lift.]]></en>
+        </locale>
+
+
+        <locale name="message.battle.challenge.c1">
+
+            <en><![CDATA[you open [defenderUsername]'s Steemit profile]]></en>
+        </locale>
+        <locale name="message.battle.challenge.c2">
+
+            <en><![CDATA[you navigate to [defenderUsername]'s Steemit profile]]></en>
+        </locale>
+        <locale name="message.battle.challenge.c3">
+
+            <en><![CDATA[you find [defenderUsername]'s Steemit profile]]></en>
+        </locale>
+        <locale name="message.battle.challenge.c4">
+
+            <en><![CDATA[you track down [defenderUsername]'s Steemit profile]]></en>
+        </locale>
+
+        <locale name="message.battle.challenge.d1">
+
+            <en><![CDATA[and challenge [defenderSalutation] to a duel.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.d2">
+
+            <en><![CDATA[and challenge [defenderSalutation] to a fight.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.d3">
+
+            <en><![CDATA[and inform [defenderSalutation] that you are going to fight.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.d4">
+
+            <en><![CDATA[and announce that you are going to fight.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.d5">
+
+            <en><![CDATA[and announce that you are going to duel each other.]]></en>
+        </locale>
+
+        <locale name="message.battle.challenge.cd1">
+
+            <en><![CDATA[you challenge [defenderUsername] to a duel via your STEEMPUNK-NET implant.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.cd2">
+
+            <en><![CDATA[you challenge [defenderUsername] to a fight via your STEEMPUNK-NET implant.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.cd3">
+            <en><![CDATA[you throw down the virtual gauntlet to [defenderUsername].]]></en>
+        </locale>
+
+        <locale name="message.battle.challenge.info1">
+
+            <en><![CDATA[The fight automatically starts in two hours.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.info2">
+
+            <en><![CDATA[The duel automatically starts in two hours.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.info3">
+
+            <en><![CDATA[In two hours, you will start the duel in the Clockwork Arena.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.info4">
+
+            <en><![CDATA[In two hours, you will start to fight in the Clockwork Arena.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.info5">
+
+            <en><![CDATA[You have two hours time to prepare – then the duel starts.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.info6">
+
+            <en><![CDATA[You have two hours time to prepare – then the fight starts.]]></en>
+        </locale>
+
+        <!-- Battle challenge defender -->
+
+        <locale name="message.battle.challenge.defender.title.1">
+
+            <en><![CDATA[Attention!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.title.2">
+
+            <en><![CDATA[Take heed!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.title.3">
+
+            <en><![CDATA[Oh no!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.title.4">
+
+            <en><![CDATA[Prepare yourself!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.title.5">
+
+            <en><![CDATA[Attack!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.title.6">
+
+            <en><![CDATA[Challenge!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.title.7">
+
+            <en><![CDATA[Duel!]]></en>
+        </locale>
+
+        <locale name="message.battle.challenge.defender.a1">
+
+            <en><![CDATA[You are being challenged by [attackerUsername]!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.a2">
+
+            <en><![CDATA[You are being challenged to a fight in the Clockwork Arena by [attackerUsername]!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.a3">
+
+            <en><![CDATA[[attackerUsername] challenged you to a fight!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.a4">
+
+            <en><![CDATA[[attackerUsername] challenged you to a duel!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.a5">
+
+            <en><![CDATA[[attackerUsername] wants to attack you!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.a6">
+
+            <en><![CDATA[[attackerUsername] challenges you!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.a7">
+
+            <en><![CDATA[[attackerUsername] visited you profile and challenged you to a fight!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.a8">
+
+            <en><![CDATA[[attackerUsername] visited you profile and challenged you to a duel!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.a9">
+
+            <en><![CDATA[[attackerUsername] has it in for you and challenged you!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.a10">
+
+            <en><![CDATA[[attackerUsername] wants to duel you!]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.a11">
+
+            <en><![CDATA[[attackerUsername] wants to fight you!]]></en>
+        </locale>
+
+        <locale name="message.battle.challenge.defender.b1">
+
+            <en><![CDATA[You have 2 hours to prepare.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.b2">
+
+            <en><![CDATA[In 2 hours your duel will start automatically.]]></en>
+        </locale>
+
+        <locale name="message.battle.challenge.defender.c1">
+
+            <en><![CDATA[Vote, comment or post on Steemit to increase your power.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.c2">
+
+            <en><![CDATA[Be active on Steemit to prepare for your fight.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.c3">
+
+            <en><![CDATA[Be active on Steemit to prepare for your duel.]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.c4">
+            <en><![CDATA[
+            Surf on Steemit to find better items and be better prepared for the fight.
+            ]]></en>
+        </locale>
+        <locale name="message.battle.challenge.defender.c5">
+            <en><![CDATA[
+            Surf on Steemit to find better items and be better prepared for the duel.
+            ]]></en>
+        </locale>
+
+        <!-- Battle finish message -->
+        <locale name="message.battle.winner.title.1">
+
+            <en><![CDATA[Victory!]]></en>
+        </locale>
+        <locale name="message.battle.winner.title.2">
+
+            <en><![CDATA[Very good!]]></en>
+        </locale>
+        <locale name="message.battle.winner.title.3">
+
+            <en><![CDATA[Great!!]]></en>
+        </locale>
+        <locale name="message.battle.winner.title.4">
+
+            <en><![CDATA[Well done!]]></en>
+        </locale>
+
+
+        <locale name="message.battle.winner.message.1" html="true">
+
+            <en><![CDATA[You won the duel against [loserUsername]!]]></en>
+        </locale>
+        <locale name="message.battle.winner.message.2" html="true">
+
+            <en><![CDATA[You won the fight against [loserUsername]!]]></en>
+        </locale>
+        <locale name="message.battle.winner.message.3" html="true">
+            <en><![CDATA[You felled [loserUsername] in the fight!]]></en>
+        </locale>
+        <locale name="message.battle.winner.message.4" html="true">
+            <en><![CDATA[You felled [loserUsername] in the duel!]]></en>
+        </locale>
+        <locale name="message.battle.winner.message.5" html="true">
+            <en><![CDATA[You showed it to [loserUsername] in your fight!]]></en>
+        </locale>
+        <locale name="message.battle.winner.message.6" html="true">
+            <en><![CDATA[You showed it to [loserUsername] in your duel!]]></en>
+        </locale>
+        <locale name="message.battle.winner.message.7" html="true">
+            <en><![CDATA[
+
+            ]]></en>
+        </locale>
+        <locale name="message.battle.winner.message.8" html="true">
+            <en><![CDATA[[loserUsername] had to accept defeat against you.]]></en>
+        </locale>
+        <locale name="message.battle.winner.message.9" html="true">
+            <en><![CDATA[You defeated [loserUsername] in your duel an won!]]></en>
+        </locale>
+        <locale name="message.battle.winner.message.10" html="true">
+            <en><![CDATA[You defeated [loserUsername] in your fight an won!]]></en>
+        </locale>
+        <locale name="message.battle.winner.message.11" html="true">
+            <en><![CDATA[
+            Like two gunslingers from the old days, you're facing each other. [loserUsername]s
+            hand twitches to the weapon, but your reflexes are faster.
+            In a fraction of a second, you pulled, aimed and squeezed.
+            Miserably [loserUsername] sinks together. You won!
+            ]]></en>
+        </locale>
+
+
+        <locale name="message.battle.loser.title.1">
+
+            <en><![CDATA[Oh no!]]></en>
+        </locale>
+        <locale name="message.battle.loser.title.2">
+
+            <en><![CDATA[What a shame!]]></en>
+        </locale>
+        <locale name="message.battle.loser.title.3">
+
+            <en><![CDATA[Damn!]]></en>
+        </locale>
+        <locale name="message.battle.loser.title.4">
+
+            <en><![CDATA[Failed!]]></en>
+        </locale>
+
+        <locale name="message.battle.loser.message.1">
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="message.battle.loser.message.2">
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="message.battle.loser.message.3">
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="message.battle.loser.message.4">
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="message.battle.loser.message.5">
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="message.battle.loser.message.6">
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="message.battle.loser.message.7">
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="message.battle.loser.message.8">
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="message.battle.loser.message.8">
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="message.battle.loser.message.9">
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="message.battle.loser.message.10">
+            <en><![CDATA[]]></en>
+        </locale>
+
+
+        <locale name="message.item.found.title.1">
+
+            <en><![CDATA[What is that?!]]></en>
+        </locale>
+        <locale name="message.item.found.title.2">
+
+            <en><![CDATA[Item found!]]></en>
+        </locale>
+        <locale name="message.item.found.title.3">
+
+            <en><![CDATA[A prize!]]></en>
+        </locale>
+        <locale name="message.item.found.title.4">
+
+            <en><![CDATA[Fat loot!]]></en>
+        </locale>
+
+        <locale name="message.item.found.message.1">
+
+            <en><![CDATA[Walking through the streets, you find [item].]]></en>
+        </locale>
+        <locale name="message.item.found.message.2">
+
+            <en><![CDATA[Tiptoeing through the corridors, you find  [item].]]></en>
+        </locale>
+        <locale name="message.item.found.message.3">
+
+            <en><![CDATA[Wandering through the hallways, you find [item].]]></en>
+        </locale>
+        <locale name="message.item.found.message.4">
+
+            <en><![CDATA[While exploring the city, you find [item].]]></en>
+        </locale>
+        <locale name="message.item.found.message.5">
+
+            <en><![CDATA[You pocket [item] as your loot.]]></en>
+        </locale>
+        <locale name="message.item.found.message.6">
+
+            <en><![CDATA[You are now proud owner of [item].]]></en>
+        </locale>
+        <locale name="message.item.found.message.7">
+
+            <en><![CDATA[Your bravery is rewarded! You receive [item].]]></en>
+        </locale>
+        <locale name="message.item.found.message.8">
+
+            <en><![CDATA[Your bravery is rewarded! You find [item].]]></en>
+        </locale>
+        <locale name="message.item.found.message.9">
+
+            <en><![CDATA[You find [item] and pocket your new possession inconspicuously.]]></en>
+        </locale>
+
+
+        <!-- weapons -->
+        <locale name="steempunk.item.1.title">
+
+            <en><![CDATA[Lady Adas Pocket Revolver]]></en>
+        </locale>
+        <locale name="steempunk.item.2.title">
+
+            <en><![CDATA[Ponzis Shotgun of the multiplied chastisement]]></en>
+        </locale>
+        <locale name="steempunk.item.3.title">
+
+            <en><![CDATA[Pacals Phaser]]></en>
+        </locale>
+        <locale name="steempunk.item.4.title">
+
+            <en><![CDATA[Scrap revolver]]></en>
+        </locale>
+        <locale name="steempunk.item.5.title">
+
+            <en><![CDATA[Bolt gun]]></en>
+        </locale>
+        <locale name="steempunk.item.6.title">
+
+            <en><![CDATA[Finn's sniper rifle]]></en>
+        </locale>
+        <locale name="steempunk.item.7.title">
+
+            <en><![CDATA[Needle pistol]]></en>
+        </locale>
+
+        <locale name="steempunk.item.8.title">
+
+            <en><![CDATA[Leather strips]]></en>
+        </locale>
+        <locale name="steempunk.item.9.title">
+
+            <en><![CDATA[Metal parts]]></en>
+        </locale>
+        <locale name="steempunk.item.10.title">
+
+            <en><![CDATA[Leather armor]]></en>
+        </locale>
+        <locale name="steempunk.item.11.title">
+
+            <en><![CDATA[Nanofibre vest]]></en>
+        </locale>
+
+        <locale name="steempunk.item.12.title">
+
+            <en><![CDATA[Condenser]]></en>
+        </locale>
+        <locale name="steempunk.item.13.title">
+
+            <en><![CDATA[wire]]></en>
+        </locale>
+        <locale name="steempunk.item.14.title">
+
+            <en><![CDATA[Scrap metal]]></en>
+        </locale>
+        <locale name="steempunk.item.15.title">
+
+            <en><![CDATA[Wood]]></en>
+        </locale>
+        <locale name="steempunk.item.16.title">
+
+            <en><![CDATA[CPU]]></en>
+        </locale>
+        <locale name="steempunk.item.17.title">
+
+            <en><![CDATA[GPU]]></en>
+        </locale>
+
+    </groups>
+</locales>

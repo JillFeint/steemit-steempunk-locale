@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locales>
+    <file file="de/steemit-auth.xml"/>
+    <file file="de/steemit-battle.xml"/>
+    <file file="de/steemit-blockchain-wrapper.xml"/>
+    <file file="de/steemit-distributor.xml"/>
+    <file file="de/steemit-steempunk-template.xml"/>
+
+    <file file="en/steemit-auth.xml"/>
+    <file file="en/steemit-battle.xml"/>
+    <file file="en/steemit-blockchain-wrapper.xml"/>
+    <file file="en/steemit-distributor.xml"/>
+    <file file="en/steemit-steempunk-template.xml"/>
+</locales>

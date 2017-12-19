@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locales>
+    <groups name="pcsg/steemit-distributor" datatype="php,js">
+        <locale name="package.title">
+            <de><![CDATA[Steemit Blockchain Distributor]]></de>
+        </locale>
+
+        <locale name="package.description">
+            <de><![CDATA[Steemit Blockchain Distributor]]></de>
+        </locale>
+    </groups>
+</locales>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locales>
+    <groups name="pcsg/steemit-steempunk-template" datatype="php,js">
+        <locale name="package.title" html="true">
+            <de><![CDATA[STEEMPUNK-NET Template]]></de>
+        </locale>
+    </groups>
+
+    <groups name="pcsg/steempunknet" datatype="php,js">
+        <!-- template bricks -->
+        <locale name="character.class.aristocrat">
+            <de><![CDATA[Aristokrat]]></de>
+        </locale>
+        <locale name="character.class.adventurer">
+            <de><![CDATA[Abenteurer]]></de>
+        </locale>
+
+        <locale name="weapons.title">
+            <de><![CDATA[Waffen und Gegenstände]]></de>
+        </locale>
+        <locale name="message.no.inventory">
+            <de><![CDATA[Du besitzt zur Zeit keine Gegenstände :(]]></de>
+        </locale>
+
+        <locale name="login.header">
+            <de><![CDATA[Login]]></de>
+        </locale>
+        <locale name="login.welcome.message" html="true">
+            <de><![CDATA[
+            <p>Betrete das Tor zu einer Welt in der Technologie und Blockchain dir einzigartige Möglichkeiten geben.</p>
+            ]]></de>
+        </locale>
+
+        <locale name="login.language.message">
+            <de><![CDATA[Bitte wähle deine Sprache]]></de>
+        </locale>
+
+        <!-- Skills -->
+        <locale name="skills.SPF">
+            <de><![CDATA[SPF]]></de>
+        </locale>
+        <locale name="skills.experience">
+            <de><![CDATA[Erfahrung]]></de>
+        </locale>
+        <locale name="skills.strength">
+            <de><![CDATA[Stärke]]></de>
+        </locale>
+        <locale name="skills.education">
+            <de><![CDATA[Bildung]]></de>
+        </locale>
+        <locale name="skills.defense">
+            <de><![CDATA[Verteidigung]]></de>
+        </locale>
+        <locale name="skills.dexterity">
+            <de><![CDATA[Geschicklichkeit]]></de>
+        </locale>
+        <locale name="skills.constitution">
+            <de><![CDATA[Konstitution]]></de>
+        </locale>
+
+        <!-- nav / buttons / tabs -->
+        <locale name="nav.user">
+            <de><![CDATA[Benutzer]]></de>
+        </locale>
+        <locale name="nav.history">
+            <de><![CDATA[Kampf-Log]]></de>
+        </locale>
+        <locale name="nav.settings">
+            <de><![CDATA[Einstellungen]]></de>
+        </locale>
+        <locale name="nav.store">
+            <de><![CDATA[Shop]]></de>
+        </locale>
+        <locale name="nav.battle">
+            <de><![CDATA[Angriff]]></de>
+        </locale>
+
+        <!-- History -->
+        <locale name="history.upcoming.title">
+            <de><![CDATA[Kommende Kämpfe]]></de>
+        </locale>
+        <locale name="history.done.title">
+            <de><![CDATA[Bestrittene Kämpfe]]></de>
+        </locale>
+
+        <!-- History -->
+        <locale name="settings.title">
+            <de><![CDATA[Einstellungen]]></de>
+        </locale>
+
+        <!-- History -->
+        <locale name="settings.general">
+            <de><![CDATA[Allgemein]]></de>
+        </locale>
+        <locale name="settings.language">
+            <de><![CDATA[Sprache]]></de>
+
+        </locale>
+        <locale name="settings.menu">
+            <de><![CDATA[Menü]]></de>
+        </locale>
+        <locale name="settings.menu.open.at.steemit">
+            <de><![CDATA[Menü automatisch öffnen wenn steemit.com besucht wird.]]></de>
+        </locale>
+        <locale name="settings.menu.open.at.news">
+            <de><![CDATA[Menü automatisch öffnen wenn es Neuigkeiten gibt.]]></de>
+        </locale>
+        <locale name="settings.news">
+            <de><![CDATA[Neuigkeiten]]></de>
+        </locale>
+        <locale name="settings.news.mail">
+            <de><![CDATA[Hinweis per E-Mail wenn mich jemand angreift.]]></de>
+        </locale>
+        <locale name="settings.logout">
+            <de><![CDATA[Abmelden]]></de>
+        </locale>
+        <locale name="settings.save">
+            <de><![CDATA[Einstellungen speichern]]></de>
+        </locale>
+
+        <locale name="constitution.is.to.low">
+            <de><![CDATA[
+                Die vielen Kämpfe der letzten Zeit haben deine Kräfte aufgezehrt. Du solltest dich ausruhen.
+            ]]></de>
+        </locale>
+        <locale name="exception.fighters.handler.constitution.is.missing">
+            <de><![CDATA[
+                Die vielen Kämpfe der letzten Zeit haben deine Kräfte aufgezehrt. Du solltest dich ausruhen.
+            ]]></de>
+        </locale>
+        <locale name="exception.fighters.handler.constitution.is.missing.battles">
+            <de><![CDATA[
+                Du hast noch [battles] Kämpfe zu bestreiten. Dies würde deine Kräfte aufzähren.
+            ]]></de>
+        </locale>
+        <locale name="exception.fighters.handler.constitution.is.missing.battles.1">
+            <de><![CDATA[
+                Du hast noch [battles] Kampf zu bestreiten. Dies würde deine Kräfte aufzähren.
+            ]]></de>
+        </locale>
+
+        <!-- welcome -->
+        <locale name="welcome.button.characterSelect">
+            <de><![CDATA[Sofort loslegen]]></de>
+        </locale>
+        <locale name="welcome.button.about">
+            <de><![CDATA[Die STEEMPUNK-NET WELT]]></de>
+        </locale>
+        <locale name="welcome.character.title">
+            <de><![CDATA[Was bist du?]]></de>
+        </locale>
+        <locale name="welcome.character.text">
+            <de><![CDATA[
+            Damit du loslegen kannst, musst du uns vom STEEMPUNK-NET-Konsortium nur eine simple Frage beantworten:
+            ]]></de>
+        </locale>
+        <locale name="welcome.character.gender.title">
+            <de><![CDATA[Welches Geschlecht hast du?]]></de>
+        </locale>
+        <locale name="welcome.message">
+            <de><![CDATA[Willkommen in der Uhrwerk-Arena, Steemianer!]]></de>
+        </locale>
+
+        <locale name="welcome.language.select.title">
+            <de><![CDATA[Sprachauswahl]]></de>
+        </locale>
+        <locale name="welcome.language.select.description">
+            <de><![CDATA[Welche Sprache möchtest du verwenden?]]></de>
+
+        </locale>
+        <locale name="welcome.language.select.next">
+            <de><![CDATA[Weiter]]></de>
+        </locale>
+
+        <locale name="male">
+            <de><![CDATA[männlich]]></de>
+        </locale>
+        <locale name="female">
+            <de><![CDATA[weiblich]]></de>
+        </locale>
+        <locale name="aristocrat">
+            <de><![CDATA[Aristokrat]]></de>
+        </locale>
+        <locale name="adventurer">
+            <de><![CDATA[Abenteurer]]></de>
+        </locale>
+        <locale name="welcome.character.enter">
+            <de><![CDATA[Die Welt von STEEMPUNK-NET betreten!]]></de>
+        </locale>
+
+
+        <locale name="adventurer.description" html="true">
+            <de><![CDATA[
+            <p>Du bist also eine von diesen <strong>Unterwelt-Ratten</strong>,
+            die tief in den Straßenschluchten von Steemopolis hausen und die das Tageslicht sehen?
+            Hast du überhaupt einen Zugang zum Netz und weißt, was eine Blockchain ist, du Analogster? Haha!</p>
+
+            <p>Guck nicht so beleidigt, ist doch nur Spaß. In der Uhrwerk-Arena sind jede Menge Ratten aktiv.
+            Für euereins wohl die einzige Möglichkeit, an ein paar Coins zu kommen, was?
+            Okay, dann registrier dich hier einfach mit deinem Fingerabdruck.
+            Danach setzen wir dir schnell ein Implantat zur Aufzeichnung deiner Daten.
+            Ein ganz frischer STEEMPUNK-NET-Node, garantiert neuwertig!
+            Wird nur für die Auswertung der <strong>wöchentlichen Kampf-Rangliste</strong> verwendet.
+            Versprochen!</p>
+
+            <p>So, und nun bist du bereit für die schöne neue Welt da draußen.
+            Wenn du in Steemit auf andere Uhrwerk-Kämpfer triffst, kannst du sie <strong>herausfordern</strong>.
+            Spätestens <strong>zwei Stunden später kommt es automatisch zum Kampf</strong> hier in der Arena.
+            Kein Rückzieher möglich, haha!
+            Den Rest findest du schon selbst raus. Viel Erfolg!</p>
+            ]]></de>
+        </locale>
+        <locale name="aristocrat.description" html="true">
+            <de><![CDATA[
+            <p>Verzeiht, Sire, dass ich nach Eurer Herkunft fragen musste! Es ist Vorschrift, sehr streng,
+            ich befolge hier nur die Anweisungen von oben.
+            Also von sozusagen Euch, denn Ihr kommt ja aus den oberen Etagen.
+            Aus einer der <strong>erfolgreichen Unternehmerfamilien</strong>, nehme ich an? Einer der großen Multinationals?</p>
+
+            <p>Verzeiht meine Neugier!
+            Ihr habt sicherlich wenig Zeit und wollt eure Registrierung als Uhrwerk-Kämpfer schnell erledigen.
+            Eine gute Möglichkeit, eure Coins zu vermehren, Sire?
+            Oder wollt Ihr es euren Bekannten mal so richtig zeigen? Wir vom STEEMPUNK-NET-Konsortium versprechen Euch:
+            Ihr werdet Teile von Steemit zu Gesicht bekommen, die Euch die Augen übergehen lassen werden!</p>
+
+            <p>Nun aber genug geplaudert!
+            Registriert euch einfach mit eurem Public Key.
+            Danach setzen wir euch noch schnell ein Implantat zur Auswertung der <strong>wöchentlichen Kampf-Rangliste</strong>.
+            Ein ganz frischer STEEMPUNK-NET-Node, beste Qualität für Euch, Sire!</p>
+
+            <p>So, und nun seid Ihr bereit für die schöne neue Welt da draußen.
+            Wenn Ihr Steemit auf andere Uhrwerk-Kämpfer trefft, könnt Ihr sie <strong>herausfordern</strong>.
+            Spätestens <strong>zwei Stunden später kommt es automatisch zum Kampf</strong> hier in der Arena.
+            Rückzieher sind nicht möglich.
+            Das Leben als Uhrwerk-Kämpfer wird euch den Rest lehren, Sire. Viel Erfolg!</p>
+            ]]></de>
+        </locale>
+
+        <locale name="story.title">
+            <de><![CDATA[Die Welt von STEEMPUNK-NET]]></de>
+        </locale>
+
+        <locale name="story" html="true">
+            <de><![CDATA[
+            <h2>Neue Mächte: Multinationale Konzerne und Blockchains</h2>
+            <p>Wir schreiben das Jahr 2279. Die Wirtschaft ist zusammengebrochen.
+            Regierungen haben keine Macht mehr. Fiat-Währungen sind wertlos geworden.</p>
+
+            <p>Stattdessen lenken multinationale Konzerne das Weltgeschehen.
+            Mit Kryptowährungen haben sie neue Geldmittel geschaffen und geben diese an ihre treuen Kunden aus.
+            Was als Utopie begann, ist längst ein Mittel zur totalitären Überwachung der Konsumenten geworden.
+            Blockchains kontrollieren das Leben der Menschen in dieser neuen Gesellschaft.</p>
+
+            <p>Unternehmen fungieren wie die Staaten von einst: Sie erlassen ihre eigenen Gesetze;
+            sie überwachen die Einhaltung ihrer Regeln und sie sorgen dafür,
+            dass Abweichler ihre gerechte Strafe erhalten. Dank schier unüberschaubarer Datenströme wissen die Multinationals alles über die Bürger –
+            und die Bürger haben längst die Hoheit über ihre Daten verloren.</p>
+
+            <h2>Neue Gesellschaftsordnung: Ganz oben und ganz unten</h2>
+
+            <p>Die meisten Menschen stören diese Zustände kaum. Sie gehen, wie seit Jahrtausenden,
+            stumpf ihrem Alltag nach. Sie geben sich Werbung, Populisten und vorgekauten Inhalten hin,
+            aber sie hinterfragen nichts. Doch einige von ihnen leben anders...</p>
+
+            <p>Die Aristokraten sind ganz weit oben – im wahrsten Sinne des Wortes.
+            Die Elite der neuen Gesellschaft besteht aus den reichsten Unternehmerfamilien und thront
+            in den höchsten Etagen der Wolkenkratzer aller urbanen Megacities.
+            Mit modernster Technologie ausgestattet wird ihr Potential für Höheres schon
+            vor ihrer Geburt künstlich verbessert – genetische Optimierung, ausgeklügelte Implantate,
+            leistungssteigernde Stim-Packs.</p>
+
+            <p>Doch der Preis für das Leben im Luxus und transhumanistische Leistungssteigerung ist hoch:
+            Bereits mit der ersten Zellteilung im Mutterleib stehen junge Aristokraten unter stetiger
+            Beobachtung. Immer online, immer getrackt, immer analysiert – und die Blockchain vergisst
+            nichts. Oft merkt man erst, dass man in einem goldenen Käfig sitzt, wenn man versucht,
+            daraus auszubrechen...</p>
+
+            <p>Die Abenteurer sind ganz unten. In den tiefsten Schluchten der urbanen Molochs fristen
+            sie ihr Dasein. Grundbedürfnisse der neuen und alten Welten werden hier nicht ausreichend
+            gedeckt. Es fehlt an Wasser, Nahrung, Internetzugang und Krypto-Geld. Während in den
+            oberen Etagen die schöne neue Welt herrscht, hat die Unterschicht alles verloren: Wissen,
+            Besitz, Kultur... </p>
+
+            <p>Dafür besitzt man hier unten eine Freiheit, von der die Oberwelt nur träumen kann.
+            Denn wer offline ist, der entzieht sich dem allumfassenden Griff der Konzerne.
+            Hier herrscht das Gesetz des Stärkeren – oder das des Clevereren. Wer jetzt noch Zugriff
+            auf einen sicheren Netzzugang erhaschen kann, der kann das große Geld machen – vorausgesetzt,
+             man schert sich nicht um Anstand und Moral.</p>
+
+            <h2>Neue Herausforderungen: Kämpfe an der Tagesordnung</h2>
+
+            <p>Egal, ob oben oder unten, Aristokrat oder Abenteurer: Du bist nicht wie die anderen Schafe,
+            die jeden Tag brav ihrem vorgegebenen Lebensentwurf nachgehen. Du willst mehr!
+            Zum Glück haben die Großkonzerne auch für Ausreißer wie dich eine Lösung parat:
+            Das STEEMPUNK-NET-Konsortium ermöglicht in seiner Uhrwerk-Arena organisierte Duelle zwischen
+            den Steemit-Bürgern: Arena- und Straßenkämpfe, zu denen sich jeder anmelden kann. Jeder Uhrwerk-Kämpfer
+            wird somit zum Jäger und gleichzeitig zum Gejagten. Der Kampf lauert an jeder Ecke.</p>
+
+            <p>Den erfolgreichsten Uhrwerk-Kämpfern winken Ruhm und Ehre in einer wöchentlichen Rangliste.
+            Als Belohnungen locken Coins, wertvolle Gegenstände und stetig wachsende Kampferfahrung.
+            Und dann gibt es da noch das Mysterium um den Holy Private Key,
+            der besonderen Wohlstand in dieser korrupten Welt verspricht...</p>
+
+            <p>Bist du ein reicher, dekadenter Aristokrat, der seine übermenschlichen Fähigkeiten
+            dazu nutzt, seine Überlegenheit in Duellen unter Beweis zu stellen? Oder bist du ein verarmter,
+            gebeutelter Abenteurer, der den Kampf suchen muss, um sein tägliches Überleben zu sichern?</p>
+
+            <p>In der Welt von STEEMPUNK-NET belohnt das Schicksal die Mutigen – oder die Verzweifelten.</p>
+            ]]></de>
+        </locale>
+
+        <!-- Messages -->
+        <locale name="message.no.upcoming.fights">
+            <de><![CDATA[Puh ... kein Angriff gesichtet!!]]></de>
+        </locale>
+        <locale name="message.no.done.fights">
+            <de><![CDATA[Leider hast du noch keine Kämpfe ausgetragen.]]></de>
+        </locale>
+        <locale name="profile.button.attack">
+            <de><![CDATA[Angreifen]]></de>
+        </locale>
+        <locale name="profile.button.attack.go">
+            <de><![CDATA[Angreifen!!]]></de>
+        </locale>
+        <locale name="profile.button.attack.cancel">
+            <de><![CDATA[Oh nein, lieber nicht.]]></de>
+        </locale>
+        <locale name="attack.message.title">
+            <de><![CDATA[Bereit für den Kampf?]]></de>
+        </locale>
+        <locale name="attack.message.1">
+            <de><![CDATA[Bist du sicher, dass du [username] herausfordern willst?]]></de>
+        </locale>
+        <locale name="attack.message.2">
+            <de><![CDATA[Bist du bereit für den Kampf gegen [username]?]]></de>
+        </locale>
+        <locale name="attack.message.3">
+            <de><![CDATA[Bist du bereit für das Duell mit [username]?]]></de>
+        </locale>
+        <locale name="attack.message.4">
+            <de><![CDATA[Willst du wirklich [username] herausfordern?]]></de>
+        </locale>
+        <locale name="attack.message.5">
+            <de><![CDATA[Willst du [username] zum Kampf auffordern?]]></de>
+        </locale>
+        <locale name="attack.message.6">
+            <de><![CDATA[Willst du [username] zum Duell herausfordern?]]></de>
+        </locale>
+        <locale name="attack.message.7">
+            <de><![CDATA[Willst du [username] angreifen?]]></de>
+        </locale>
+        <locale name="attack.message.8">
+            <de><![CDATA[Willst du gegen [username] kämpfen?]]></de>
+        </locale>
+        <locale name="attack.message.9">
+            <de><![CDATA[Willst du dich mit [username] duellieren?]]></de>
+        </locale>
+        <locale name="attack.message.10">
+            <de><![CDATA[Bitte bestätige, dass du [username] herausfordern willst.]]></de>
+        </locale>
+        <locale name="attack.message.11">
+            <de><![CDATA[Wenn du [username] herausforderst, gibt es kein Zurück mehr. Bist du sicher?]]></de>
+        </locale>
+        <locale name="agb.button.confirm">
+            <de><![CDATA[Ich bestätige hiermit die AGB gelesen und verstanden zu haben]]></de>
+        </locale>
+    </groups>
+</locales>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locales>
+    <groups name="pcsg/steemit-blockchain-wrapper" datatype="php,js">
+        <locale name="package.title">
+            <en><![CDATA[Steemit Blockchain Wrapper]]></en>
+        </locale>
+
+        <locale name="package.description">
+            <en><![CDATA[Steemit Blockchain Wrapper]]></en>
+        </locale>
+    </groups>
+</locales>
